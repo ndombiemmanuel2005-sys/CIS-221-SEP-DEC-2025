@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f6ff;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    .container {
+      width: 90%;
+      margin: auto;
+      overflow: hidden;
+      padding: 20px 0;
+    }
+    h2 {
+      color: #004080;
+      text-align: center;
+      margin-top: 40px;
+    }
+    .fashion-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.3s ease;
+      border: 2px solid #cce0ff;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      border-color: #004080;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin: 10px 0;
+      color: #004080;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 2px solid #004080;
+    }
+    table th, table td {
+      padding: 15px;
+      border: 1px solid #99c2ff;
+      text-align: center;
+    }
+    table th {
+      background: #004080;
+      color: #fff;
+    }
+    table tr:nth-child(even) {
+      background: #e6f0ff;
+    }
+    .benefits {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border: 2px solid #cce0ff;
+    }
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+    .benefits li {
+      padding: 8px 0;
+      font-size: 1.1em;
+      color: #004080;
+    }
+    footer {
+      background: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fashion Store</h1>
+    <p>Your one-stop destination for trendy fashion</p>
+  </header>
+  <div class="container">
+    <h2>Our Fashion Collection</h2>
+    <div class="fashion-items">
+      <div class="card">
+        <img src="https://via.placeholder.com/250x300?text=Dress" alt="Dress">
+        <h3>Elegant Dress</h3>
+        <p>Perfect for all occasions</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x300?text=Shoes" alt="Shoes">
+        <h3>Stylish Shoes</h3>
+        <p>Comfort meets fashion</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x300?text=Bag" alt="Bag">
+        <h3>Classic Handbag</h3>
+        <p>Trendy & spacious</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/250x300?text=Watch" alt="Watch">
+        <h3>Smart Watch</h3>
+        <p>Style on your wrist</p>
+      </div>
+    </div>
+    <h2>Upcoming Sale Offers</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Offer</th>
+        <th>Discount</th>
+      </tr>
+      <tr>
+        <td>5th Oct</td>
+        <td>Dress Bonanza</td>
+        <td>30% OFF</td>
+      </tr>
+      <tr>
+        <td>12th Oct</td>
+        <td>Shoe Festival</td>
+        <td>25% OFF</td>
+      </tr>
+      <tr>
+        <td>20th Oct</td>
+        <td>Accessories Week</td>
+        <td>Buy 1 Get 1 Free</td>
+      </tr>
+    </table>
+    <h2>Why Shop With Us?</h2>
+    <div class="benefits">
+      <ul>
+        <li>✔ High-quality fashion at affordable prices</li>
+        <li>✔ Fast and reliable delivery</li>
+        <li>✔ Wide range of trendy collections</li>
+        <li>✔ Secure online payments</li>
+        <li>✔ Excellent customer support</li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Fashion Store. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
